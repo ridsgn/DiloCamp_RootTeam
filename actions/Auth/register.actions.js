@@ -2,7 +2,7 @@ const User = require('../../models/user.models');
 const Role = require('../../models/role.models');
 const bcrypt = require('bcryptjs');
 const nodemailer = require('nodemailer');
-const { randomKey } = require('../../lib/generatorkey');
+const { randomKey } = require('../../lib/generatekey');
 const token = randomKey(54, 'aA#');
 
 class Register {

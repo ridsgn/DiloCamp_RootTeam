@@ -1,7 +1,7 @@
 const express = require('express');
 const router = express.Router();
 const Create = require('../../actions/User/create_user.actions');
-const Detail = require('../../actions/User/detail_user.actions');
+const Detail = require('../../actions/User/read_user.actions');
 const Update = require('../../actions/User/update_user.actions');
 const Delete = require('../../actions/User/destroy_user.actions');
 const { check, validationResult, body } = require('express-validator');

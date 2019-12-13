@@ -1,6 +1,6 @@
 const UserResetPass = require('../../models/reset_pass.models');
 const User = require('../../models/user.models');
-const { randomKey } = require('../../lib/generatorkey');
+const { randomKey } = require('../../lib/generatekey');
 const SendMail = require('nodemailer');
 
 class ForgotPassword {

@@ -1,6 +1,6 @@
 const UserResetPass = require('../../models/reset_pass.models');
 const User = require('../../models/user.models');
-const TokenSearch = require('../ResPassword/token_search.actions');
+const TokenSearch = require('../ResPass/token_search.actions');
 const bcrypt = require('bcryptjs');
 
 class Reset {
